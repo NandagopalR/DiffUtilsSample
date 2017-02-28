@@ -19,3 +19,6 @@ This is simple example of DiffUtils to avoid notifyDataSetChanged() method.
    Checks whether two items have the same data.You can change its behavior depending on your UI. This method is called by DiffUtil only if areItemsTheSame returns true.
 # getChangePayload(int oldItemPosition, int newItemPosition) : 
    If areItemTheSame return true and areContentsTheSame returns false DiffUtil calls this method to get a payload about the change. 
+   
+# References:
+https://developer.android.com/reference/android/support/v7/util/DiffUtil.html
